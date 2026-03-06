@@ -31,19 +31,22 @@ node-auth-mongodb
 │   └── db.js
 │
 ├── controllers
-│   └── authController.js
+│   ├── authController.js
+│   └── userController.js
 │
 ├── models
 │   └── User.js
 │
 ├── routes
-│   └── authRoutes.js
+│   ├── authRoutes.js
+│   └── UserRoutes.js
 │
 ├── middleware
-│   └── authMiddleware.js
-│
+│   ├── authMiddleware.js
+│   └── errorHandler.js
 ├── .gitignore
 ├── package.json
+├── app.js
 ├── server.js
 └── README.md
 ```
